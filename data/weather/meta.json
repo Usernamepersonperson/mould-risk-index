@@ -1,0 +1,31 @@
+{
+ "source": "Open-Meteo Historical Weather API (CC BY 4.0), reanalysis-based",
+ "start": "2025-10-15",
+ "end": "2026-03-31",
+ "cities": {
+  "zurich": {
+   "rows": 4032,
+   "elevation_m": 409.0
+  },
+  "basel": {
+   "rows": 4032,
+   "elevation_m": 247.0
+  },
+  "bern": {
+   "rows": 4032,
+   "elevation_m": 554.0
+  },
+  "geneva": {
+   "rows": 4032,
+   "elevation_m": 368.0
+  },
+  "lugano": {
+   "rows": 4032,
+   "elevation_m": 286.0
+  },
+  "davos": {
+   "rows": 4032,
+   "elevation_m": 1569.0
+  }
+ }
+}

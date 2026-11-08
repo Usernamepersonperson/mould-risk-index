@@ -1,0 +1,13 @@
+{
+  "claim": "Open-source mould-risk monitor: same flat, same winter, bad habits vs good airing.",
+  "data_label": "simulated flats, real outdoor weather: open data Open-Meteo, Zurich, Oct 2025 - Mar 2026",
+  "stats": [
+    ["5.0", "mould index, tight flat, bad habits", "red"],
+    ["0.04", "same flat with good airing", "green"],
+    ["20 min", "daily airing that cut risk days 160 to 0", "amber"]
+  ],
+  "limit": "Indoor climate is simulated; nothing is validated against a real flat, sensor or observed mould.",
+  "alt": "Dark two-panel chart for a simulated tight renovated flat in Zurich. Top: wall-surface and room humidity over two January weeks, with bad habits stuck near 100 percent and good airing near 50 percent, and a dashed 80 percent line. Bottom: mould index over the winter, rising to 5.0 for bad habits and staying near zero with good airing.",
+  "hashtags": ["#Schimmel", "#Wohnen", "#Lueften", "#IoT", "#Immobilien"],
+  "post": "Energy-renovated flats are tight, and a wardrobe against a cold corner plus closed windows is a classic recipe for mould. Disputes about who is to blame are common, and there is little neutral data.\n\nI built mould-risk-index, an open-source Python monitor for rental flats. Cheap temperature and humidity sensors feed a dew-point and wall-surface-humidity calculation (temperature factor fRsi), the VTT dynamic mould index, and an advice engine that writes plain recommendations in German, French, Italian and English, such as \"open windows on opposite sides for 5 minutes now\" or \"raise the setpoint by 1 K\". A weekly report stays neutral between tenant and landlord, and all data stays local. It includes a 7-byte BLE and LoRaWAN payload with a JavaScript decoder.\n\nI simulated three behaviours in two building types over one winter with real hourly Zurich weather from Open-Meteo. In the tight renovated flat the mould index reached 5.0 with bad habits and 0.04 with good airing. About 20 minutes of daily cross ventilation took days at index 1 or higher from 160 to 0, and a cold-corner sensor missed 0.06 events per flat-month against 0.47 for a room sensor with a generic assumption.\n\nWhat is not verified: the indoor climate is simulated, and neither it nor the mould model was checked against a real flat or observed mould.\n\nIf you manage rental housing, would you want a tool that shows both the airing and the wall-temperature side?\n\nCode: https://github.com/Usernamepersonperson/mould-risk-index"
+}
