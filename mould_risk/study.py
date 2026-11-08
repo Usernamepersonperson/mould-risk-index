@@ -132,7 +132,7 @@ def sample_reports(runs: dict, out_dir: Path) -> list[str]:
         )
         p = out_dir / f"example-report.{lang}.md"
         p.write_text(txt, encoding="utf-8")
-        paths.append(str(p))
+        paths.append(f"docs/{p.name}")
     return paths
 
 

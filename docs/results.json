@@ -1853,9 +1853,9 @@
   }
  ],
  "reports": [
-  "C:\\Users\\UNLIMITED\\Desktop\\Projects\\SwissIoT-Showcase\\mould-risk-index\\docs\\example-report.de.md",
-  "C:\\Users\\UNLIMITED\\Desktop\\Projects\\SwissIoT-Showcase\\mould-risk-index\\docs\\example-report.fr.md",
-  "C:\\Users\\UNLIMITED\\Desktop\\Projects\\SwissIoT-Showcase\\mould-risk-index\\docs\\example-report.it.md",
-  "C:\\Users\\UNLIMITED\\Desktop\\Projects\\SwissIoT-Showcase\\mould-risk-index\\docs\\example-report.en.md"
+  "docs/example-report.de.md",
+  "docs/example-report.fr.md",
+  "docs/example-report.it.md",
+  "docs/example-report.en.md"
  ]
 }
