@@ -10,8 +10,8 @@
 | Température moyenne de la pièce (C) | 19.6 |
 | Humidité moyenne de la pièce (%) | 53 |
 | Heures avec humidité de surface du mur de 80 % ou plus | 30 |
-| Indice de moisissure en fin de semaine (0-6) | 1.47 |
-| Épisodes d'alerte cette semaine (À surveiller / Avertissement / Critique) | 3 / 3 / 1 |
+| Indice de moisissure en fin de semaine (0-6) | 0.15 |
+| Épisodes d'alerte cette semaine (À surveiller / Avertissement / Critique) | 3 / 3 / 0 |
 | Couverture des données (%) | 99 |
 
 ## Facteurs contributifs (neutre)
@@ -21,9 +21,8 @@
 
 ## Actions suggérées
 
-- **Critique**: Aération : ouvrir grand les fenêtres de deux côtés opposés pendant 5 min (courant d'air), puis les refermer. L'air intérieur contient 8.2 g/m3 d'humidité de plus que l'air extérieur.
-- **Critique**: Une consigne plus élevée ne suffira pas à elle seule (points froids du mur à 103 %). Aérer et faire contrôler le mur par la gérance.
-- **Critique**: Le mur reste humide malgré l'aération et le chauffage. À signaler à la gérance pour faire contrôler le pont thermique. Il s'agit d'une indication neutre, pas d'une attribution de responsabilité.
+- **Avertissement**: Aération : ouvrir grand les fenêtres de deux côtés opposés pendant 5 min (courant d'air), puis les refermer. L'air intérieur contient 8.2 g/m3 d'humidité de plus que l'air extérieur.
+- **Avertissement**: Une consigne plus élevée ne suffira pas à elle seule (points froids du mur à 103 %). Aérer et faire contrôler le mur par la gérance.
 - **À surveiller**: La charge d'humidité est élevée (8.2 g/m3 de plus que l'air extérieur). Sécher le linge dehors ou dans une pièce aérée porte fermée, cuisiner avec couvercle et aérer après la douche.
 
 ---

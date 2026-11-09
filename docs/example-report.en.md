@@ -10,8 +10,8 @@
 | Mean room temperature (C) | 19.6 |
 | Mean room humidity (%) | 53 |
 | Hours with wall-surface humidity of 80 % or more | 30 |
-| Mould index at end of week (0-6) | 1.47 |
-| Alert episodes this week (Watch / Warning / Critical) | 3 / 3 / 1 |
+| Mould index at end of week (0-6) | 0.15 |
+| Alert episodes this week (Watch / Warning / Critical) | 3 / 3 / 0 |
 | Data coverage (%) | 99 |
 
 ## Contributing factors (neutral)
@@ -21,9 +21,8 @@
 
 ## Suggested actions
 
-- **Critical**: Airing: open windows on opposite sides fully for 5 min now (cross ventilation), then close them. Indoor air holds 8.2 g/m3 more moisture than outdoor air.
-- **Critical**: A higher setpoint alone will not be enough (cold wall spots at 103 %). Combine airing with a check of the wall by the property manager.
-- **Critical**: The wall stays damp despite airing and heating. Report it to the property manager so the thermal bridge can be checked. This is a neutral hint, not an assessment of fault.
+- **Warning**: Airing: open windows on opposite sides fully for 5 min now (cross ventilation), then close them. Indoor air holds 8.2 g/m3 more moisture than outdoor air.
+- **Warning**: A higher setpoint alone will not be enough (cold wall spots at 103 %). Combine airing with a check of the wall by the property manager.
 - **Watch**: Moisture load is high (8.2 g/m3 above outdoor air). Dry laundry outside or in a ventilated room with the door closed, cook with lids on, and air after showering.
 
 ---

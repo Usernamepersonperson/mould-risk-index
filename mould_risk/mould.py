@@ -13,17 +13,21 @@
        0 none, 1 first microscopic growth, 2 moderate (microscope), 3 first visible, 4 clearly visible,
        5 coverage > 50 %, 6 full coverage.
    Growth rate (per day)   dM/dt = k1 * k2 / (7 exp(-0.68 ln T - 13.9 ln RH + 0.14 W - 0.33 SQ + 66.02))
-   k1 = 1 for M < 1, else 2 / (t3 / t1 - 1) with t1 the weeks to M=1 above and
-        t3 = exp(-0.74 ln T - 12.72 ln RH + 0.06 W + 61.50) weeks to M=3,
+   (Hukka and Viitanen 1999; Ojanen et al. 2010, Eq. 2). t3 = exp(-0.74 ln T - 12.72 ln RH + 0.06 W + 61.50)
+   is the original pine regression for the weeks to M = 3 (kept as a helper).
    k2 = max(1 - exp(2.3 (M - Mmax)), 0), Mmax = A + B x - C x^2, x = (RHcrit - RH)/(RHcrit - 100).
-   Sensitivity classes (A, B, C): very sensitive (1, 7, 2), sensitive (0, 6, 1), medium resistant (0, 5, 1.5),
-   resistant (0, 3, 1). The W / SQ terms describe timber (0 = pine, 0 = sawn); for painted plaster they
-   are set to 0 and the class constants carry the material sensitivity.
-   Decline when RH < RHcrit: -0.00133 /h for the first 6 h, 0 until 24 h, -0.000667 /h afterwards.
-   Constants were implemented from the published formulas as I read them; check against the paper before
-   relying on absolute values (see README, "What is not verified yet").
-   RH_CLASS_OFFSET (germination threshold: 80 % at 20 C for the two sensitive classes, 85 % for the resistant ones, as I recall the paper)
-   and the choice of the "sensitive" class for painted interior walls are assumptions of this project.
+   Ojanen et al. (2010), Table 4, checked against the paper on 2026-11-09:
+       class              k1 (M < 1)  k1 (M >= 1)   A    B    C    RHmin
+       very sensitive       1           2           1    7    2    80 %
+       sensitive            0.578       0.386       0.3  6    1    80 %
+       medium resistant     0.072       0.097       0    5    1.5  85 %
+       resistant            0.033       0.014       0    3    1    85 %
+   The W / SQ terms describe timber (0 = pine, 0 = sawn); for other materials SQ = 0 and W = 0 here.
+   Decline when RH < RHcrit (Eq. 9): -0.00133 /h for the first 6 h, 0 until 24 h, -0.000667 /h afterwards.
+   Ojanen et al. scale this by a material factor Cmat (Eq. 10; 1 for wood, 0.5 / 0.25 / 0.1 for other
+   materials). Cmat = 1 is used here, an assumption for painted plaster.
+   Project assumptions: the "sensitive" class for painted interior walls, and applying the 85 % RHmin of
+   the resistant classes as a +5 point offset on the whole RHcrit(T) curve.
 
 3. Simple rule: surface RH >= 80 % sustained (rolling mean over a window of days). The ISO 13788 /
    DIN 4108-2 criterion uses the monthly mean surface RH < 80 %.
@@ -38,9 +42,16 @@ import pandas as pd
 
 SENSITIVITY = {
     "very_sensitive": (1.0, 7.0, 2.0),
-    "sensitive": (0.0, 6.0, 1.0),
+    "sensitive": (0.3, 6.0, 1.0),
     "medium_resistant": (0.0, 5.0, 1.5),
     "resistant": (0.0, 3.0, 1.0),
+}
+# Growth-intensity factor k1 per class, (M < 1, M >= 1), Ojanen et al. (2010) Table 4.
+K1 = {
+    "very_sensitive": (1.0, 2.0),
+    "sensitive": (0.578, 0.386),
+    "medium_resistant": (0.072, 0.097),
+    "resistant": (0.033, 0.014),
 }
 RH_CLASS_OFFSET = {"very_sensitive": 0.0, "sensitive": 0.0, "medium_resistant": 5.0, "resistant": 5.0}
 # Painted plaster / wallpaper: "sensitive" class (project assumption); "very_sensitive" is run as a sensitivity check.
@@ -83,8 +94,8 @@ def growth_rate_per_day(m: float, t_c: float, rh_pct: float, sensitivity: str = 
     if rh <= rc or t_c <= 0.0:
         return 0.0
     t1 = t_m1_weeks(min(t_c, 50.0), rh)
-    t3 = t_m3_weeks(min(t_c, 50.0), rh)
-    k1 = 1.0 if m < 1.0 else 2.0 / max(t3 / t1 - 1.0, 0.01)
+    k1_low, k1_high = K1[sensitivity]
+    k1 = k1_low if m < 1.0 else k1_high
     x = (rc - rh) / (rc - 100.0)
     m_max = a + b * x - c * x * x
     k2 = max(1.0 - math.exp(2.3 * (m - m_max)), 0.0)

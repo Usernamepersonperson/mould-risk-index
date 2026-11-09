@@ -10,8 +10,8 @@
 | Mittlere Raumtemperatur (C) | 19.6 |
 | Mittlere Raumfeuchte (%) | 53 |
 | Stunden mit Wandoberflächenfeuchte von 80 % oder mehr | 30 |
-| Schimmelindex am Wochenende (0-6) | 1.47 |
-| Warnepisoden in dieser Woche (Beobachten / Warnung / Kritisch) | 3 / 3 / 1 |
+| Schimmelindex am Wochenende (0-6) | 0.15 |
+| Warnepisoden in dieser Woche (Beobachten / Warnung / Kritisch) | 3 / 3 / 0 |
 | Datenabdeckung (%) | 99 |
 
 ## Einflussfaktoren (neutral)
@@ -21,9 +21,8 @@
 
 ## Empfohlene Massnahmen
 
-- **Kritisch**: Lüften: Fenster auf gegenüberliegenden Seiten jetzt 5 Min. ganz öffnen (Durchzug), danach schliessen. Die Raumluft enthält 8.2 g/m3 mehr Feuchte als die Aussenluft.
-- **Kritisch**: Eine höhere Heizeinstellung allein genügt nicht (kalte Wandstellen bei 103 %). Lüften und die Wand von der Verwaltung prüfen lassen.
-- **Kritisch**: Die Wand bleibt trotz Lüften und Heizen feucht. Bitte der Verwaltung melden, damit die Wärmebrücke geprüft wird. Das ist ein neutraler Hinweis, keine Schuldzuweisung.
+- **Warnung**: Lüften: Fenster auf gegenüberliegenden Seiten jetzt 5 Min. ganz öffnen (Durchzug), danach schliessen. Die Raumluft enthält 8.2 g/m3 mehr Feuchte als die Aussenluft.
+- **Warnung**: Eine höhere Heizeinstellung allein genügt nicht (kalte Wandstellen bei 103 %). Lüften und die Wand von der Verwaltung prüfen lassen.
 - **Beobachten**: Die Feuchtelast ist hoch (8.2 g/m3 über der Aussenluft). Wäsche draussen oder in einem gelüfteten Raum bei geschlossener Tür trocknen, mit Deckel kochen und nach dem Duschen lüften.
 
 ---

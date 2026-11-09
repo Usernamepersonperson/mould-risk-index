@@ -13,9 +13,9 @@
  },
  "main": [
   {
-   "max_mould_idx": 2.9647350421690484,
-   "final_mould_idx": 2.840386720930225,
-   "days_m_ge_1": 150,
+   "max_mould_idx": 0.8357340762056452,
+   "final_mould_idx": 0.39422623010372193,
+   "days_m_ge_1": 0,
    "days_m_ge_3": 0,
    "hours_rh_surf_ge_80": 2000,
    "days_rule80_7d": 84,
@@ -29,12 +29,12 @@
    "behaviour": "bad",
    "alerts_watch": 81,
    "alerts_warn": 79,
-   "alerts_critical": 1,
+   "alerts_critical": 0,
    "months_failing_80_rule": 4,
    "months_total": 7
   },
   {
-   "max_mould_idx": 0.09673501257597546,
+   "max_mould_idx": 0.05605793031818644,
    "final_mould_idx": 0.0,
    "days_m_ge_1": 0,
    "days_m_ge_3": 0,
@@ -55,7 +55,7 @@
    "months_total": 7
   },
   {
-   "max_mould_idx": 0.008324950596888423,
+   "max_mould_idx": 0.005135281641402134,
    "final_mould_idx": 0.0,
    "days_m_ge_1": 0,
    "days_m_ge_3": 0,
@@ -76,10 +76,10 @@
    "months_total": 7
   },
   {
-   "max_mould_idx": 4.999999999999979,
-   "final_mould_idx": 4.999999999999979,
-   "days_m_ge_1": 160,
-   "days_m_ge_3": 151,
+   "max_mould_idx": 5.279976723759208,
+   "final_mould_idx": 5.279976723759208,
+   "days_m_ge_1": 154,
+   "days_m_ge_3": 108,
    "hours_rh_surf_ge_80": 3967,
    "days_rule80_7d": 166,
    "mean_rh_in": 82.73997760713752,
@@ -97,9 +97,9 @@
    "months_total": 7
   },
   {
-   "max_mould_idx": 1.6870889863245366,
-   "final_mould_idx": 1.5489721908375704,
-   "days_m_ge_1": 137,
+   "max_mould_idx": 0.5910970341558314,
+   "final_mould_idx": 0.0,
+   "days_m_ge_1": 0,
    "days_m_ge_3": 0,
    "hours_rh_surf_ge_80": 1470,
    "days_rule80_7d": 61,
@@ -113,12 +113,12 @@
    "behaviour": "typical",
    "alerts_watch": 55,
    "alerts_warn": 58,
-   "alerts_critical": 1,
+   "alerts_critical": 0,
    "months_failing_80_rule": 2,
    "months_total": 7
   },
   {
-   "max_mould_idx": 0.03543386065720217,
+   "max_mould_idx": 0.02052204526436479,
    "final_mould_idx": 0.0,
    "days_m_ge_1": 0,
    "days_m_ge_3": 0,
@@ -932,8 +932,8 @@
    "building": "altbau",
    "behaviour": "bad",
    "mean_t_out": 3.7482390873015867,
-   "days_m_ge_1": 150,
-   "max_mould_idx": 2.9647350421690484,
+   "days_m_ge_1": 0,
+   "max_mould_idx": 0.8357340762056452,
    "hours_rh_surf_ge_80": 2000
   },
   {
@@ -942,7 +942,7 @@
    "behaviour": "typical",
    "mean_t_out": 3.7482390873015867,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.09673501257597546,
+   "max_mould_idx": 0.05605793031818644,
    "hours_rh_surf_ge_80": 444
   },
   {
@@ -951,7 +951,7 @@
    "behaviour": "good",
    "mean_t_out": 3.7482390873015867,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.008324950596888423,
+   "max_mould_idx": 0.005135281641402134,
    "hours_rh_surf_ge_80": 82
   },
   {
@@ -959,8 +959,8 @@
    "building": "renovated",
    "behaviour": "bad",
    "mean_t_out": 3.7482390873015867,
-   "days_m_ge_1": 160,
-   "max_mould_idx": 4.999999999999979,
+   "days_m_ge_1": 154,
+   "max_mould_idx": 5.279976723759208,
    "hours_rh_surf_ge_80": 3967
   },
   {
@@ -968,8 +968,8 @@
    "building": "renovated",
    "behaviour": "typical",
    "mean_t_out": 3.7482390873015867,
-   "days_m_ge_1": 137,
-   "max_mould_idx": 1.6870889863245366,
+   "days_m_ge_1": 0,
+   "max_mould_idx": 0.5910970341558314,
    "hours_rh_surf_ge_80": 1470
   },
   {
@@ -978,7 +978,7 @@
    "behaviour": "good",
    "mean_t_out": 3.7482390873015867,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.03543386065720217,
+   "max_mould_idx": 0.02052204526436479,
    "hours_rh_surf_ge_80": 142
   },
   {
@@ -986,8 +986,8 @@
    "building": "altbau",
    "behaviour": "bad",
    "mean_t_out": 5.3639632936507935,
-   "days_m_ge_1": 150,
-   "max_mould_idx": 3.787220092456229,
+   "days_m_ge_1": 0,
+   "max_mould_idx": 0.9552724711366868,
    "hours_rh_surf_ge_80": 2170
   },
   {
@@ -996,7 +996,7 @@
    "behaviour": "typical",
    "mean_t_out": 5.3639632936507935,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.09620479707768305,
+   "max_mould_idx": 0.055419718409476786,
    "hours_rh_surf_ge_80": 585
   },
   {
@@ -1005,7 +1005,7 @@
    "behaviour": "good",
    "mean_t_out": 5.3639632936507935,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.008371090939105,
+   "max_mould_idx": 0.004619484672700738,
    "hours_rh_surf_ge_80": 132
   },
   {
@@ -1013,8 +1013,8 @@
    "building": "renovated",
    "behaviour": "bad",
    "mean_t_out": 5.3639632936507935,
-   "days_m_ge_1": 161,
-   "max_mould_idx": 4.999999999999981,
+   "days_m_ge_1": 155,
+   "max_mould_idx": 5.289854522109188,
    "hours_rh_surf_ge_80": 3975
   },
   {
@@ -1022,8 +1022,8 @@
    "building": "renovated",
    "behaviour": "typical",
    "mean_t_out": 5.3639632936507935,
-   "days_m_ge_1": 145,
-   "max_mould_idx": 2.7731780237379646,
+   "days_m_ge_1": 0,
+   "max_mould_idx": 0.7617190319341444,
    "hours_rh_surf_ge_80": 1712
   },
   {
@@ -1032,7 +1032,7 @@
    "behaviour": "good",
    "mean_t_out": 5.3639632936507935,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.05060012875189726,
+   "max_mould_idx": 0.029158556109425034,
    "hours_rh_surf_ge_80": 198
   },
   {
@@ -1041,7 +1041,7 @@
    "behaviour": "bad",
    "mean_t_out": 3.2809275793650796,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.9635217075857895,
+   "max_mould_idx": 0.4743356366944412,
    "hours_rh_surf_ge_80": 1650
   },
   {
@@ -1050,7 +1050,7 @@
    "behaviour": "typical",
    "mean_t_out": 3.2809275793650796,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.0660172593707678,
+   "max_mould_idx": 0.03833999927269394,
    "hours_rh_surf_ge_80": 285
   },
   {
@@ -1059,7 +1059,7 @@
    "behaviour": "good",
    "mean_t_out": 3.2809275793650796,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.005295445009831115,
+   "max_mould_idx": 0.003217684914067758,
    "hours_rh_surf_ge_80": 52
   },
   {
@@ -1067,8 +1067,8 @@
    "building": "renovated",
    "behaviour": "bad",
    "mean_t_out": 3.2809275793650796,
-   "days_m_ge_1": 160,
-   "max_mould_idx": 4.999999999999156,
+   "days_m_ge_1": 154,
+   "max_mould_idx": 5.24734478951941,
    "hours_rh_surf_ge_80": 3917
   },
   {
@@ -1077,7 +1077,7 @@
    "behaviour": "typical",
    "mean_t_out": 3.2809275793650796,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.7648502695552866,
+   "max_mould_idx": 0.36758429005718796,
    "hours_rh_surf_ge_80": 1181
   },
   {
@@ -1086,7 +1086,7 @@
    "behaviour": "good",
    "mean_t_out": 3.2809275793650796,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.025683396321630282,
+   "max_mould_idx": 0.014858841599000618,
    "hours_rh_surf_ge_80": 88
   },
   {
@@ -1094,8 +1094,8 @@
    "building": "altbau",
    "behaviour": "bad",
    "mean_t_out": 5.200272817460317,
-   "days_m_ge_1": 152,
-   "max_mould_idx": 3.7532286021181274,
+   "days_m_ge_1": 22,
+   "max_mould_idx": 1.0377056502744109,
    "hours_rh_surf_ge_80": 2178
   },
   {
@@ -1104,7 +1104,7 @@
    "behaviour": "typical",
    "mean_t_out": 5.200272817460317,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.1766521535935137,
+   "max_mould_idx": 0.07369239024605939,
    "hours_rh_surf_ge_80": 576
   },
   {
@@ -1113,7 +1113,7 @@
    "behaviour": "good",
    "mean_t_out": 5.200272817460317,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.011435107708825465,
+   "max_mould_idx": 0.0068348557458027545,
    "hours_rh_surf_ge_80": 121
   },
   {
@@ -1121,8 +1121,8 @@
    "building": "renovated",
    "behaviour": "bad",
    "mean_t_out": 5.200272817460317,
-   "days_m_ge_1": 161,
-   "max_mould_idx": 4.999999999999981,
+   "days_m_ge_1": 155,
+   "max_mould_idx": 5.292364497398115,
    "hours_rh_surf_ge_80": 3993
   },
   {
@@ -1130,8 +1130,8 @@
    "building": "renovated",
    "behaviour": "typical",
    "mean_t_out": 5.200272817460317,
-   "days_m_ge_1": 151,
-   "max_mould_idx": 2.623347544691677,
+   "days_m_ge_1": 0,
+   "max_mould_idx": 0.8671193871415306,
    "hours_rh_surf_ge_80": 1685
   },
   {
@@ -1140,7 +1140,7 @@
    "behaviour": "good",
    "mean_t_out": 5.200272817460317,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.05304939371603129,
+   "max_mould_idx": 0.030767339748626447,
    "hours_rh_surf_ge_80": 202
   },
   {
@@ -1148,8 +1148,8 @@
    "building": "altbau",
    "behaviour": "bad",
    "mean_t_out": 7.583159722222223,
-   "days_m_ge_1": 152,
-   "max_mould_idx": 3.8541165994153928,
+   "days_m_ge_1": 0,
+   "max_mould_idx": 0.9492258318248463,
    "hours_rh_surf_ge_80": 1963
   },
   {
@@ -1158,7 +1158,7 @@
    "behaviour": "typical",
    "mean_t_out": 7.583159722222223,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.24906712094183303,
+   "max_mould_idx": 0.11781132659233938,
    "hours_rh_surf_ge_80": 527
   },
   {
@@ -1167,7 +1167,7 @@
    "behaviour": "good",
    "mean_t_out": 7.583159722222223,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.048557290546388666,
+   "max_mould_idx": 0.027843223660061096,
    "hours_rh_surf_ge_80": 192
   },
   {
@@ -1175,8 +1175,8 @@
    "building": "renovated",
    "behaviour": "bad",
    "mean_t_out": 7.583159722222223,
-   "days_m_ge_1": 162,
-   "max_mould_idx": 4.999999999999981,
+   "days_m_ge_1": 155,
+   "max_mould_idx": 5.293022063026068,
    "hours_rh_surf_ge_80": 4005
   },
   {
@@ -1184,8 +1184,8 @@
    "building": "renovated",
    "behaviour": "typical",
    "mean_t_out": 7.583159722222223,
-   "days_m_ge_1": 151,
-   "max_mould_idx": 2.733463966350346,
+   "days_m_ge_1": 0,
+   "max_mould_idx": 0.7750879225172692,
    "hours_rh_surf_ge_80": 1634
   },
   {
@@ -1194,7 +1194,7 @@
    "behaviour": "good",
    "mean_t_out": 7.583159722222223,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.062055670766445935,
+   "max_mould_idx": 0.033490502233481864,
    "hours_rh_surf_ge_80": 251
   },
   {
@@ -1203,7 +1203,7 @@
    "behaviour": "bad",
    "mean_t_out": -1.6538938492063493,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.06494589755120354,
+   "max_mould_idx": 0.03779999803234659,
    "hours_rh_surf_ge_80": 443
   },
   {
@@ -1212,7 +1212,7 @@
    "behaviour": "typical",
    "mean_t_out": -1.6538938492063493,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.006433019505350855,
+   "max_mould_idx": 0.003803672845354692,
    "hours_rh_surf_ge_80": 37
   },
   {
@@ -1221,7 +1221,7 @@
    "behaviour": "good",
    "mean_t_out": -1.6538938492063493,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.0003819666746867203,
+   "max_mould_idx": 0.00023042447002471518,
    "hours_rh_surf_ge_80": 2
   },
   {
@@ -1229,8 +1229,8 @@
    "building": "renovated",
    "behaviour": "bad",
    "mean_t_out": -1.6538938492063493,
-   "days_m_ge_1": 159,
-   "max_mould_idx": 4.985730872527062,
+   "days_m_ge_1": 151,
+   "max_mould_idx": 2.8705024089869275,
    "hours_rh_surf_ge_80": 3288
   },
   {
@@ -1239,7 +1239,7 @@
    "behaviour": "typical",
    "mean_t_out": -1.6538938492063493,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.09000022655769536,
+   "max_mould_idx": 0.05100255486200085,
    "hours_rh_surf_ge_80": 260
   },
   {
@@ -1248,7 +1248,7 @@
    "behaviour": "good",
    "mean_t_out": -1.6538938492063493,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.0015922167069346992,
+   "max_mould_idx": 0.0009800358134090387,
    "hours_rh_surf_ge_80": 6
   }
  ],
@@ -1259,8 +1259,8 @@
    "change": "airing",
    "value": 0,
    "airing_min_per_day": 0.0,
-   "days_m_ge_1": 150,
-   "max_mould_idx": 2.9647350421690484,
+   "days_m_ge_1": 0,
+   "max_mould_idx": 0.8357340762056452,
    "hours_rh_surf_ge_80": 2000,
    "heating_kwh": 3676.2487161874574,
    "mean_rh_in": 54.9512631554229
@@ -1272,7 +1272,7 @@
    "value": 10,
    "airing_min_per_day": 10.0,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.7521722732413363,
+   "max_mould_idx": 0.3502706961522828,
    "hours_rh_surf_ge_80": 1416,
    "heating_kwh": 3893.5908089210084,
    "mean_rh_in": 51.65224002984788
@@ -1284,7 +1284,7 @@
    "value": 20,
    "airing_min_per_day": 20.0,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.3917891224784245,
+   "max_mould_idx": 0.1290671295644831,
    "hours_rh_surf_ge_80": 1069,
    "heating_kwh": 4108.436323453429,
    "mean_rh_in": 49.64742012901189
@@ -1296,7 +1296,7 @@
    "value": 30,
    "airing_min_per_day": 30.0,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.22333798096850696,
+   "max_mould_idx": 0.07051803044663574,
    "hours_rh_surf_ge_80": 896,
    "heating_kwh": 4320.578957231598,
    "mean_rh_in": 48.388098578299555
@@ -1308,7 +1308,7 @@
    "value": 45,
    "airing_min_per_day": 45.0,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.12409926878574903,
+   "max_mould_idx": 0.05090278470217475,
    "hours_rh_surf_ge_80": 749,
    "heating_kwh": 4633.328682365319,
    "mean_rh_in": 47.30387277148908
@@ -1319,8 +1319,8 @@
    "change": "setpoint",
    "value": 1.0,
    "airing_min_per_day": 0.0,
-   "days_m_ge_1": 107,
-   "max_mould_idx": 1.3778580102107938,
+   "days_m_ge_1": 0,
+   "max_mould_idx": 0.5707235487310528,
    "hours_rh_surf_ge_80": 1611,
    "heating_kwh": 4146.2234498060825,
    "mean_rh_in": 51.42367862793561
@@ -1332,7 +1332,7 @@
    "value": 2.0,
    "airing_min_per_day": 0.0,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.6715084100191763,
+   "max_mould_idx": 0.29999682332725736,
    "hours_rh_surf_ge_80": 1207,
    "heating_kwh": 4622.211741693778,
    "mean_rh_in": 48.16367926082793
@@ -1344,7 +1344,7 @@
    "value": 0,
    "airing_min_per_day": 8.035714285714286,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.09673501257597546,
+   "max_mould_idx": 0.05605793031818644,
    "hours_rh_surf_ge_80": 444,
    "heating_kwh": 4578.656188732803,
    "mean_rh_in": 46.00382328788854
@@ -1356,7 +1356,7 @@
    "value": 10,
    "airing_min_per_day": 18.035714285714285,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.05293702851559558,
+   "max_mould_idx": 0.02990988162683585,
    "hours_rh_surf_ge_80": 273,
    "heating_kwh": 4814.091040422688,
    "mean_rh_in": 44.312095660201244
@@ -1368,7 +1368,7 @@
    "value": 20,
    "airing_min_per_day": 28.035714285714285,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.04006934990398734,
+   "max_mould_idx": 0.02209937681146082,
    "hours_rh_surf_ge_80": 198,
    "heating_kwh": 5046.494256146928,
    "mean_rh_in": 43.25103204405762
@@ -1380,7 +1380,7 @@
    "value": 30,
    "airing_min_per_day": 38.035714285714285,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.03472348690657397,
+   "max_mould_idx": 0.019087062474185325,
    "hours_rh_surf_ge_80": 172,
    "heating_kwh": 5275.756828902646,
    "mean_rh_in": 42.579607447732684
@@ -1392,7 +1392,7 @@
    "value": 45,
    "airing_min_per_day": 53.035714285714285,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.028088302809108054,
+   "max_mould_idx": 0.014142198930081385,
    "hours_rh_surf_ge_80": 162,
    "heating_kwh": 5613.441967760535,
    "mean_rh_in": 42.01653791762737
@@ -1404,7 +1404,7 @@
    "value": 1.0,
    "airing_min_per_day": 8.035714285714286,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.06075516453514686,
+   "max_mould_idx": 0.03545687217519823,
    "hours_rh_surf_ge_80": 254,
    "heating_kwh": 5074.998033672491,
    "mean_rh_in": 43.26473159312388
@@ -1416,7 +1416,7 @@
    "value": 2.0,
    "airing_min_per_day": 8.035714285714286,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.034450558418174154,
+   "max_mould_idx": 0.018974846329578892,
    "hours_rh_surf_ge_80": 141,
    "heating_kwh": 5578.786100576857,
    "mean_rh_in": 40.72098393879855
@@ -1427,8 +1427,8 @@
    "change": "airing",
    "value": 0,
    "airing_min_per_day": 0.0,
-   "days_m_ge_1": 160,
-   "max_mould_idx": 4.999999999999979,
+   "days_m_ge_1": 154,
+   "max_mould_idx": 5.279976723759208,
    "hours_rh_surf_ge_80": 3967,
    "heating_kwh": 565.0410529059004,
    "mean_rh_in": 82.73997760713752
@@ -1439,8 +1439,8 @@
    "change": "airing",
    "value": 10,
    "airing_min_per_day": 10.0,
-   "days_m_ge_1": 155,
-   "max_mould_idx": 4.938914779344242,
+   "days_m_ge_1": 146,
+   "max_mould_idx": 1.7831083922067616,
    "hours_rh_surf_ge_80": 2855,
    "heating_kwh": 809.831531345634,
    "mean_rh_in": 66.17537173632503
@@ -1452,7 +1452,7 @@
    "value": 20,
    "airing_min_per_day": 20.0,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.9572868271360068,
+   "max_mould_idx": 0.4118815174992886,
    "hours_rh_surf_ge_80": 1527,
    "heating_kwh": 1053.293356634765,
    "mean_rh_in": 57.999168239883545
@@ -1464,7 +1464,7 @@
    "value": 30,
    "airing_min_per_day": 30.0,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.39935349756743044,
+   "max_mould_idx": 0.12110197413729587,
    "hours_rh_surf_ge_80": 993,
    "heating_kwh": 1294.8077144228448,
    "mean_rh_in": 53.745079839520386
@@ -1476,7 +1476,7 @@
    "value": 45,
    "airing_min_per_day": 45.0,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.20106398266412923,
+   "max_mould_idx": 0.057274182012142044,
    "hours_rh_surf_ge_80": 698,
    "heating_kwh": 1652.9540710741883,
    "mean_rh_in": 50.460163568977094
@@ -1487,8 +1487,8 @@
    "change": "setpoint",
    "value": 1.0,
    "airing_min_per_day": 0.0,
-   "days_m_ge_1": 160,
-   "max_mould_idx": 4.99999999999897,
+   "days_m_ge_1": 155,
+   "max_mould_idx": 5.235260863321866,
    "hours_rh_surf_ge_80": 3919,
    "heating_kwh": 800.014564178681,
    "mean_rh_in": 78.47133004005559
@@ -1499,8 +1499,8 @@
    "change": "setpoint",
    "value": 2.0,
    "airing_min_per_day": 0.0,
-   "days_m_ge_1": 161,
-   "max_mould_idx": 4.999991551598814,
+   "days_m_ge_1": 155,
+   "max_mould_idx": 4.957805573738021,
    "hours_rh_surf_ge_80": 3782,
    "heating_kwh": 1038.7620260778576,
    "mean_rh_in": 73.7307977602691
@@ -1511,8 +1511,8 @@
    "change": "airing",
    "value": 0,
    "airing_min_per_day": 8.035714285714286,
-   "days_m_ge_1": 137,
-   "max_mould_idx": 1.6870889863245366,
+   "days_m_ge_1": 0,
+   "max_mould_idx": 0.5910970341558314,
    "hours_rh_surf_ge_80": 1470,
    "heating_kwh": 1127.3005195396915,
    "mean_rh_in": 59.05178813615174
@@ -1524,7 +1524,7 @@
    "value": 10,
    "airing_min_per_day": 18.035714285714285,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.130978090770334,
+   "max_mould_idx": 0.07531595921249098,
    "hours_rh_surf_ge_80": 505,
    "heating_kwh": 1393.7588345423667,
    "mean_rh_in": 51.45245381824937
@@ -1536,7 +1536,7 @@
    "value": 20,
    "airing_min_per_day": 28.035714285714285,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.061372136765951664,
+   "max_mould_idx": 0.03446948561994438,
    "hours_rh_surf_ge_80": 269,
    "heating_kwh": 1657.7624688042529,
    "mean_rh_in": 47.63235014496361
@@ -1548,7 +1548,7 @@
    "value": 30,
    "airing_min_per_day": 38.035714285714285,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.042927905780782,
+   "max_mould_idx": 0.02337405253447324,
    "hours_rh_surf_ge_80": 189,
    "heating_kwh": 1919.336605103462,
    "mean_rh_in": 45.467410270806816
@@ -1560,7 +1560,7 @@
    "value": 45,
    "airing_min_per_day": 53.035714285714285,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.029301652705562363,
+   "max_mould_idx": 0.013735703756324078,
    "hours_rh_surf_ge_80": 153,
    "heating_kwh": 2307.196764418715,
    "mean_rh_in": 43.707353252564616
@@ -1572,7 +1572,7 @@
    "value": 1.0,
    "airing_min_per_day": 8.035714285714286,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.6853588728975324,
+   "max_mould_idx": 0.32229118606453483,
    "hours_rh_surf_ge_80": 1030,
    "heating_kwh": 1379.078799841546,
    "mean_rh_in": 55.32156610996406
@@ -1584,7 +1584,7 @@
    "value": 2.0,
    "airing_min_per_day": 8.035714285714286,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.32454049247839983,
+   "max_mould_idx": 0.14597714368057557,
    "hours_rh_surf_ge_80": 690,
    "heating_kwh": 1633.1337855046406,
    "mean_rh_in": 51.82796205999059
@@ -1597,8 +1597,8 @@
    "policy": "none",
    "compliance": 0.0,
    "n_advice": 0,
-   "days_m_ge_1": 150,
-   "max_mould_idx": 2.9647350421690484,
+   "days_m_ge_1": 0,
+   "max_mould_idx": 0.8357340762056452,
    "hours_rh_surf_ge_80": 2000,
    "heating_kwh": 3676.2487161874574,
    "mean_rh_in": 54.9512631554229,
@@ -1611,7 +1611,7 @@
    "compliance": 0.3,
    "n_advice": 533,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.25273710720063397,
+   "max_mould_idx": 0.1012573521293015,
    "hours_rh_surf_ge_80": 1082,
    "heating_kwh": 4252.3326192284785,
    "mean_rh_in": 49.31705348374728,
@@ -1624,7 +1624,7 @@
    "compliance": 0.7,
    "n_advice": 369,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.05230427702007688,
+   "max_mould_idx": 0.02502519725797522,
    "hours_rh_surf_ge_80": 772,
    "heating_kwh": 4477.60007067694,
    "mean_rh_in": 47.41559744971111,
@@ -1637,7 +1637,7 @@
    "compliance": 0.3,
    "n_advice": 315,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.42501554150068516,
+   "max_mould_idx": 0.14936168166200797,
    "hours_rh_surf_ge_80": 1386,
    "heating_kwh": 4082.6416475082565,
    "mean_rh_in": 50.71122866835533,
@@ -1650,7 +1650,7 @@
    "compliance": 0.7,
    "n_advice": 203,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.11340013674217048,
+   "max_mould_idx": 0.04431594971343034,
    "hours_rh_surf_ge_80": 1120,
    "heating_kwh": 4199.828015819558,
    "mean_rh_in": 49.55936794360933,
@@ -1663,7 +1663,7 @@
    "compliance": 0.0,
    "n_advice": 0,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.09673501257597546,
+   "max_mould_idx": 0.05605793031818644,
    "hours_rh_surf_ge_80": 444,
    "heating_kwh": 4578.656188732803,
    "mean_rh_in": 46.00382328788854,
@@ -1676,7 +1676,7 @@
    "compliance": 0.3,
    "n_advice": 201,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.005176349208453802,
+   "max_mould_idx": 0.0029393649591573584,
    "hours_rh_surf_ge_80": 166,
    "heating_kwh": 4861.85199214718,
    "mean_rh_in": 43.93691535735589,
@@ -1689,7 +1689,7 @@
    "compliance": 0.7,
    "n_advice": 141,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.010842818457714025,
+   "max_mould_idx": 0.00651515097148276,
    "hours_rh_surf_ge_80": 107,
    "heating_kwh": 4929.825159184091,
    "mean_rh_in": 43.41475590889249,
@@ -1702,7 +1702,7 @@
    "compliance": 0.3,
    "n_advice": 156,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.015184478027842271,
+   "max_mould_idx": 0.00899287489167667,
    "hours_rh_surf_ge_80": 223,
    "heating_kwh": 4731.177070668988,
    "mean_rh_in": 44.71313728035934,
@@ -1715,7 +1715,7 @@
    "compliance": 0.7,
    "n_advice": 101,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.010500262570399857,
+   "max_mould_idx": 0.006326253012018971,
    "hours_rh_surf_ge_80": 143,
    "heating_kwh": 4806.206864865596,
    "mean_rh_in": 44.16166369549965,
@@ -1727,8 +1727,8 @@
    "policy": "none",
    "compliance": 0.0,
    "n_advice": 0,
-   "days_m_ge_1": 160,
-   "max_mould_idx": 4.999999999999979,
+   "days_m_ge_1": 154,
+   "max_mould_idx": 5.279976723759208,
    "hours_rh_surf_ge_80": 3967,
    "heating_kwh": 565.0410529059004,
    "mean_rh_in": 82.73997760713752,
@@ -1740,8 +1740,8 @@
    "policy": "corner",
    "compliance": 0.3,
    "n_advice": 828,
-   "days_m_ge_1": 138,
-   "max_mould_idx": 3.939705072250952,
+   "days_m_ge_1": 0,
+   "max_mould_idx": 0.8549492754154946,
    "hours_rh_surf_ge_80": 2163,
    "heating_kwh": 1186.2535325796905,
    "mean_rh_in": 60.59850946182002,
@@ -1754,7 +1754,7 @@
    "compliance": 0.7,
    "n_advice": 518,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.4267315391738771,
+   "max_mould_idx": 0.1670248910431555,
    "hours_rh_surf_ge_80": 1237,
    "heating_kwh": 1314.0766187951042,
    "mean_rh_in": 56.00634895102642,
@@ -1766,8 +1766,8 @@
    "policy": "room",
    "compliance": 0.3,
    "n_advice": 874,
-   "days_m_ge_1": 152,
-   "max_mould_idx": 4.398721410621174,
+   "days_m_ge_1": 35,
+   "max_mould_idx": 1.0892280463005286,
    "hours_rh_surf_ge_80": 2195,
    "heating_kwh": 1153.5075826443738,
    "mean_rh_in": 61.33792237283148,
@@ -1780,7 +1780,7 @@
    "compliance": 0.7,
    "n_advice": 514,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.3153537586031996,
+   "max_mould_idx": 0.08148936332052965,
    "hours_rh_surf_ge_80": 1249,
    "heating_kwh": 1316.3555255377414,
    "mean_rh_in": 55.99943079117752,
@@ -1792,8 +1792,8 @@
    "policy": "none",
    "compliance": 0.0,
    "n_advice": 0,
-   "days_m_ge_1": 137,
-   "max_mould_idx": 1.6870889863245366,
+   "days_m_ge_1": 0,
+   "max_mould_idx": 0.5910970341558314,
    "hours_rh_surf_ge_80": 1470,
    "heating_kwh": 1127.3005195396915,
    "mean_rh_in": 59.05178813615174,
@@ -1806,7 +1806,7 @@
    "compliance": 0.3,
    "n_advice": 327,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.016919219530951164,
+   "max_mould_idx": 0.009864203600765394,
    "hours_rh_surf_ge_80": 298,
    "heating_kwh": 1438.4568871145318,
    "mean_rh_in": 51.99381078662842,
@@ -1819,7 +1819,7 @@
    "compliance": 0.7,
    "n_advice": 216,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.002504616119841326,
+   "max_mould_idx": 0.0015820604751023894,
    "hours_rh_surf_ge_80": 124,
    "heating_kwh": 1493.386802643959,
    "mean_rh_in": 50.808726475514256,
@@ -1832,7 +1832,7 @@
    "compliance": 0.3,
    "n_advice": 482,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.05157845134357466,
+   "max_mould_idx": 0.028738928577375436,
    "hours_rh_surf_ge_80": 234,
    "heating_kwh": 1506.2014152243853,
    "mean_rh_in": 50.82817738658996,
@@ -1845,7 +1845,7 @@
    "compliance": 0.7,
    "n_advice": 289,
    "days_m_ge_1": 0,
-   "max_mould_idx": 0.00493205545473643,
+   "max_mould_idx": 0.0029017403605151367,
    "hours_rh_surf_ge_80": 104,
    "heating_kwh": 1627.4740168227995,
    "mean_rh_in": 48.72813979505059,

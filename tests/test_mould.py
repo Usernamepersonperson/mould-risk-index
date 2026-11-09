@@ -5,6 +5,8 @@ import pandas as pd
 import pytest
 
 from mould_risk.mould import (
+    K1,
+    SENSITIVITY,
     growth_rate_per_day,
     isopleth_exceeded,
     monthly_mean_rule,
@@ -15,6 +17,18 @@ from mould_risk.mould import (
     t_m1_weeks,
     t_m3_weeks,
 )
+
+
+def test_class_constants_match_ojanen_2010_table_4():
+    assert K1 == {"very_sensitive": (1.0, 2.0), "sensitive": (0.578, 0.386),
+                  "medium_resistant": (0.072, 0.097), "resistant": (0.033, 0.014)}
+    assert SENSITIVITY == {"very_sensitive": (1.0, 7.0, 2.0), "sensitive": (0.3, 6.0, 1.0),
+                           "medium_resistant": (0.0, 5.0, 1.5), "resistant": (0.0, 3.0, 1.0)}
+
+
+def test_sensitive_class_grows_slower_than_very_sensitive():
+    assert growth_rate_per_day(0.0, 20.0, 95.0, "sensitive") == pytest.approx(
+        0.578 * growth_rate_per_day(0.0, 20.0, 95.0, "very_sensitive"), rel=0.05)
 
 
 def test_rh_crit_endpoints_of_published_polynomial():

@@ -10,8 +10,8 @@
 | Temperatura media della stanza (C) | 19.6 |
 | Umidità media della stanza (%) | 53 |
 | Ore con umidità superficiale della parete pari o superiore all'80 % | 30 |
-| Indice di muffa a fine settimana (0-6) | 1.47 |
-| Episodi di allarme questa settimana (Da osservare / Avviso / Critico) | 3 / 3 / 1 |
+| Indice di muffa a fine settimana (0-6) | 0.15 |
+| Episodi di allarme questa settimana (Da osservare / Avviso / Critico) | 3 / 3 / 0 |
 | Copertura dei dati (%) | 99 |
 
 ## Fattori concorrenti (neutro)
@@ -21,9 +21,8 @@
 
 ## Azioni suggerite
 
-- **Critico**: Ventilazione: aprire completamente le finestre su lati opposti per 5 min (corrente d'aria), poi richiuderle. L'aria interna contiene 8.2 g/m3 di umidità in più rispetto all'aria esterna.
-- **Critico**: Una temperatura impostata più alta non basta da sola (punti freddi della parete a 103 %). Ventilare e far controllare la parete dall'amministrazione.
-- **Critico**: La parete resta umida nonostante ventilazione e riscaldamento. Segnalarlo all'amministrazione per far controllare il ponte termico. È un'indicazione neutra, non un'attribuzione di colpa.
+- **Avviso**: Ventilazione: aprire completamente le finestre su lati opposti per 5 min (corrente d'aria), poi richiuderle. L'aria interna contiene 8.2 g/m3 di umidità in più rispetto all'aria esterna.
+- **Avviso**: Una temperatura impostata più alta non basta da sola (punti freddi della parete a 103 %). Ventilare e far controllare la parete dall'amministrazione.
 - **Da osservare**: Il carico di umidità è elevato (8.2 g/m3 sopra l'aria esterna). Asciugare il bucato all'aperto o in un locale ventilato a porta chiusa, cucinare con il coperchio e ventilare dopo la doccia.
 
 ---
