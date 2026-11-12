@@ -94,4 +94,4 @@ Buildings: 1960s uninsulated brick (UA 60 W/K, infiltration 0.50 per hour at 20 
 
 ## Licence
 
-MIT, Copyright (c) 2026 Victor Bonilla. See `LICENSE`.
+MIT, Copyright (c) 2026 VB-Builds. See `LICENSE`.
